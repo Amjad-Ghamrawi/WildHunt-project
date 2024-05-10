@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Indie+Flower&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&family=Purple+Purse&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sedgwick+Ave+Display&family=Sigmar&family=Special+Elite&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+display: flex;
+justify-content:start;
+min-height: 90vh;
+}
+.contact-card{
+    color:  rgb(147, 98, 98);
+    font-family: "Protest Riot", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-size: 18px;
+    margin-left: 400px;
+}
+input{ 
+    margin:5px;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+input.message{
+    height: 100px;
+    width: 500px;
+}
+input.PhoneNumber{
+    width: 200px;
+}
+.Info{
+    color:  rgb(147, 98, 98);
+}
+.Info h1{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.Info h2{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.Info h3{
+    width: 410px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.Icons{
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.Phone{
+    margin-top: 20px;
+}
+.Submit-Btn{
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-left: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.Submit-Btn:hover{
+    background-color: silver;
+}

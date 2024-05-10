@@ -1,0 +1,82 @@
+.shop-container {
+  display: flex;
+  flex-wrap:wrap;
+  color: rgb(111, 70, 70);
+  padding: 20px;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+.filters button {
+  background-color: white;
+  border-radius: 20px;
+  color: rgb(189, 189, 189);
+  font: bold 11px arial;
+  border: none;
+  padding: 14px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  
+}
+
+
+.filters input[type="text"] {
+  padding:8px;
+  border: 1px solid  rgb(147, 98, 98);;
+  border-radius: 4px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left:430px;
+}
+
+.product {
+  border:0px solid  rgb(147, 98, 98);
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.product img {
+  width: 220px;
+  height: 190px;
+  border-radius: 8px;
+
+}
+
+.product-details {
+  margin-top: 10px;
+}
+
+.product-details p {
+  margin: 5px 0;
+}
+
+.product button {
+  display: grid;
+  background-color: rgba(102, 85, 25, 0.527) !important;
+  color: beige;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 130px;
+  height: 30px;
+}
+.search{
+  margin-left:400px;
+  width: 500px;
+  background-color: white ;
+  border: 1px solid white !important;
+  border-radius: 10px;
+}
+.search:hover{
+background: local;
+}
+div{
+  
+  background-color: rgb(215, 215, 213) !important;
+}
